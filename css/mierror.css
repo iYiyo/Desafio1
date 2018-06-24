@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+}
+
+header {
+  background: #273b47;
+}
+
+header figure {
+  display: inline-block;
+}
+
+header nav{
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+}
+
+/* .contenedor {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+} */
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.menu li{
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.portada {
+  background: #efefef;
+}
+
+figure{
+  display: flex;
+  justify-content: center;
+}
+
+.informacion {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+}
